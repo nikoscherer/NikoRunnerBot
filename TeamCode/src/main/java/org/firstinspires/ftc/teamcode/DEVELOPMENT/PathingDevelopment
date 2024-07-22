@@ -1,0 +1,11 @@
+Should all be managed using the AutonomousManager
+
+Autos can be created by:
+ - Nikorunner GUI
+ - Nikorunner path segments
+ - Nikorunner path segments + code
+ - code
+
+
+To get a path, make an enum that consists of all the paths (generate)
+access the data using a hashmap or the enum itself

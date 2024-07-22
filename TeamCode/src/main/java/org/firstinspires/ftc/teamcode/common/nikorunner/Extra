@@ -1,0 +1,9 @@
+// Cubic Bezier Spline
+
+// B(t) = 3(1 - t)^2 * P0 + 3(1 - t)^2 * t * P1 + 3(1 - t)t^2 * P2 + t^3 * P3
+
+// First Derivative (Velocity)
+// B'(t) = 3(1 - t)^2 * (P1 - P0) + 6(1 - t)t(P2 - P1) + 3t^2 (P3 - P2)
+
+// Second Derivative (Acceleration)
+// B"(t) = 6(1 - t)(P2 - 2P1 + P0) + 6t(P3 - 2P2 + P1)
